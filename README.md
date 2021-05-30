@@ -6,19 +6,19 @@ Fast-HBR is fast and memory-efficient because it does not need to store reads in
 
 to remove duplicate reads from single end files without reverce complement option
 
-python Fast-HBR.py -s <File name> 
+python Fast-HBR.py -s \<File name\> 
   
   
  to remove duplicate reads from single end files with reverce complement option
 
-python Fast-HBR.py -s <File name> -r
+python Fast-HBR.py -s \<File name\> -r
   
   
 to remove duplicate reads from paierd end files without reverce complement option
 
-python Fast-HBR.py -p1 <First File name> -p2 <Second File name>
+python Fast-HBR.py -p1 \<First File name\> -p2 \<Second File name\>
   
   
  to remove duplicate reads from paierd end files with reverce complement option
 
-python Fast-HBR.py -p1 <First File name> -p2 <Second File name> -r
+python Fast-HBR.py -p1 \<First File name\> -p2 \<Second File name\> -r
